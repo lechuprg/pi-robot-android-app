@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="robot_pi_url" type="string">:8080/robot/rest/</item>
+    <item name="robot_pi_cam_url" type="string">:9000/?action=stream/</item>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Properties Editor"
+        android:id="@+id/propertiesEditor"
+        android:layout_weight="0.03"
+        android:textAlignment="center"
+        android:textSize="9dp" />
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Mode"
+        android:id="@+id/security"
+        android:checked="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="21dp"
+        android:text="Save"
+        android:id="@+id/save"
+        android:layout_weight="0.03" />
+</LinearLayout>
